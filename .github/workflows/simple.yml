@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: powershell
         run: Get-EventLog  
-        shell: bash
+        shell: pwsh
 
 
       
