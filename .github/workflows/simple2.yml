@@ -7,7 +7,7 @@ jobs:
         
       - name: some-script
         run: |
-           sudo apt-get install java -y 
-           java --version 
         
+          sudo apt-get install jq
+
 
