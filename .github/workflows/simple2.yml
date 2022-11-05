@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: using-checkout
-        uses: actions/checkout
+        uses: Navaneeth-Kalkeri/Actions1
       - name: some-script
         run: |
          echo 
