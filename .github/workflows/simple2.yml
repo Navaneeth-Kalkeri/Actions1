@@ -9,5 +9,7 @@ jobs:
         run: |
         
           sudo apt-get install jq
+          pwd 
+          ls -a
 
 
