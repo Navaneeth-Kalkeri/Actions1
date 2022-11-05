@@ -15,7 +15,9 @@ jobs:
           echo
           whoami
           echo
-          free -m 
+          free -m
+          echo
+          uname -r 
 
 
   windows-Server: 
