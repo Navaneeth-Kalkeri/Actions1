@@ -8,10 +8,12 @@ jobs:
       - name: some-script
         run: |
         
-          sudo apt-get install jq
+          pwd
+          ls -a 
+        shell: bash
         
-          echo: pwd
           
+
           
            
 
