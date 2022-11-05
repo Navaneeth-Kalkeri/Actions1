@@ -11,9 +11,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo 
-          git --verion
+          git --version
           ls -a 
-          
+
 
   windows-Server: 
     runs-on: ubuntu-latest
