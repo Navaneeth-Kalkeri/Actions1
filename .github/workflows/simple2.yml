@@ -8,9 +8,11 @@ jobs:
       - name: some-script
         run: |
         
-          pwd
+          echo
           ls -a 
-        shell: bash
+          echo
+          who am i
+       
         
           
 
