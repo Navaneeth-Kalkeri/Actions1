@@ -8,7 +8,7 @@ jobs:
       - name: some-script
         run: |
          echo 
-           yum install java -y 
+           sudo apt-get install java -y 
            java --version 
         shell: bash
 
