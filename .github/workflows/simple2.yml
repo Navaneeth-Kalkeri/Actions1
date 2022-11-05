@@ -4,8 +4,7 @@ jobs:
   using-checkout-cmd:
     runs-on: ubuntu-latest
     steps:
-      - name: using-checkout
-        uses: Navaneeth-Kalkeri/Actions1
+        
       - name: some-script
         run: |
          echo 
@@ -13,5 +12,7 @@ jobs:
            ls 
            top
            grep 
+           yum install java -y 
+           java --version
 
 
