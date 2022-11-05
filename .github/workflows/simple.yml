@@ -1,6 +1,11 @@
 
 name: CI
-on: [push]
+on: 
+ push:
+ pull_request:
+   types: [closed, reopened, assigned]
+     
+    
 jobs:
   linux-server:
     runs-on: ubuntu-latest
