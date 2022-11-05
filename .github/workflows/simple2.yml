@@ -8,10 +8,6 @@ jobs:
       - name: some-script
         run: |
          echo 
-           pwd
-           ls 
-           top
-           grep 
            yum install java -y 
            java --version
 
