@@ -1,0 +1,17 @@
+name: Second-ci
+on: [push]
+jobs:
+  using-checkout-cmd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: using-checkout
+        uses: actions/checkout
+      - name: some-script
+        run: |
+         echo 
+           pwd
+           ls 
+           top
+           grep 
+
+
