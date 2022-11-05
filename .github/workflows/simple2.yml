@@ -9,6 +9,6 @@ jobs:
         run: |
          echo 
            yum install java -y 
-           java --version
-
+           java --version 
+        shell: bash
 
