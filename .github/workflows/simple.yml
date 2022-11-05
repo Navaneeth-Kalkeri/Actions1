@@ -17,9 +17,7 @@ jobs:
     needs: ["linux-server"]
     steps:
       - name: powershell
-        run: |
-          Get-Service
-          Get-EventLog
+        run: Get-EventLog  
         shell: bash
 
 
