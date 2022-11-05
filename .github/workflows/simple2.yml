@@ -7,8 +7,7 @@ jobs:
         
       - name: some-script
         run: |
-         echo 
            sudo apt-get install java -y 
            java --version 
-        shell: bash
+        
 
