@@ -17,7 +17,7 @@ jobs:
     needs: ["linux-server"]
     steps:
       - name: powershell
-        run: Get-EventLog  
+        run: Get-ScriptAnalyzerRule
         shell: pwsh
 
 
