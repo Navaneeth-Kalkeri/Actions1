@@ -12,7 +12,10 @@ jobs:
           echo Add other actions to build,
           echo 
           git --version
-          ls -a 
+          echo
+          whoami
+          echo
+          free -m 
 
 
   windows-Server: 
